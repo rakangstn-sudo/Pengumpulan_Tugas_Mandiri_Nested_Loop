@@ -3,10 +3,13 @@ for i in range (5,0,-1):    #pola angka menurun
         print(j,end='')
     print()
 print("="*40)
-for i in range (1,6):
-    for j in range (i):
-        print("*",end='')
+for i in range (1,6):    #pola segitiga kiri
+    for j in range (5-i):
+        print(" ",end="")
+    for j in range(i):
+        print("*", end="")
     print()
+
 print("="*40)
 
 for i in range (1,6):     #pola bintang persegi
